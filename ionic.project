@@ -1,4 +1,12 @@
 {
   "name": "PeludnaPrognoza",
-  "app_id": "a9ed5236"
+  "app_id": "a9ed5236",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
 }
