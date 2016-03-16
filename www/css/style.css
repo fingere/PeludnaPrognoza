@@ -1,1 +1,735 @@
 /* Empty. Add your own CSS if you like */
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+	width:100%;
+	height:100%;
+	font-family: -apple-system, "apple-system", "Helvetica-Neue", "Lucida Grande";
+	color:#474747;
+	margin:0;
+	letter-spacing:1px;
+	}
+p, h2 {
+	margin:0;
+	}
+h2 {
+	font-size: 30px;
+    font-weight: 500;
+	}
+a {
+	color:#474747;
+	font-size:24px;
+	text-decoration:none;
+	font-family:"Helvetica-Neue", "apple-system";
+	}
+.header img  {
+    width: 90%;
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+
+	}
+
+.container {
+	width:100%;
+	min-height:100%;
+	position:relative;
+	}
+.section {
+	font-size:30px;
+	line-height:35px;
+	width:90%;
+	height:322px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius:10px;
+	margin-bottom:15px !important;
+	margin:0 auto;
+	position:relative;
+	}
+.section-detaljno {
+	font-size:30px;
+	line-height:35px;
+	width:90%;
+	height:874px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius:10px;
+	margin-bottom:15px !important;
+	margin:0 auto;
+	position:relative;
+	}
+.left {
+	width:40%;
+	float:left;
+	margin-left:36px;
+	margin-top:29px;
+	}
+.left-detaljno {
+	width:40%;
+	float:left;
+	margin-left:36px;
+	margin-top:29px;
+	}
+.left-rezultati {
+	width:40%;
+	float:left;
+	margin-left:36px;
+	margin-top:29px;
+	}
+.link {
+	margin-top:50px
+	}
+.link p {
+	font-size: 24px;
+	}
+.right {
+	width:50%;
+	height:323px;
+	float:right;
+    position: absolute;
+    right: 0;
+	}
+.photo {
+	position: absolute;
+	right: 0;
+	}
+.photo img {
+	margin-top: 10px;
+	width: 100%;
+	}
+.photo-detaljno {
+	position: absolute;
+	right: 0;
+	}
+.photo-detaljno img {
+	margin-top: 150px;
+	width:100%;
+	}
+.left img {
+	margin-top:23px;
+	width: 213px;
+	}
+.left-detaljno img {
+	margin-top:50px;
+	width: 213px;
+	}
+.left-detaljno .arrow {
+	margin-top:50px;
+	width: auto;
+	}
+.left-rezultati img {
+	margin-top:23px;
+	}
+.green {
+	background-image:url(../IMG/Rectangle%2019@1x.png);
+	width: 200px;
+	height: 86px;
+	line-height:86px;
+	position: relative;
+	float: right;
+	margin-top:43px;
+	text-align:right;
+	padding-right: 56px;
+	color:#FFFFFF;
+	font-weight:bolder;
+}
+.green h2 {
+	color:#FFFFFF;
+	font-size:36px;
+	font-weight: bold;
+    letter-spacing: 1px;
+	}
+footer {
+    height: 60px;
+    margin-top: 34px;
+    width: 100%;
+
+	}
+.logo {
+	width:30%;
+	margin-left: 78px;
+	float:left;
+	}
+.link2 {
+	margin-right: 78px;
+    margin-top: 8px;
+    float: right;
+    font-weight: 400;
+	}
+.section-detaljno hr {
+	border-width: 1px;
+	border-style:solid;
+	border-color:#979797;
+	width:90%
+	}
+.detaljno {
+	width:100%;
+	height:440px;
+	}
+.first {
+	width:50%;
+	float:left;
+	border-right-style: solid;
+    border-width: 2px;
+    border-color: #979797;
+	margin-top:10px;
+
+	}
+.second {
+	width:50%;
+	float:right;
+	position:absolute;
+	right:0;
+	margin-top:10px;
+	}
+.first h2, .second h2 {
+	text-align:center;
+	}
+.prognoza {
+	margin:0 auto;
+	margin-top:28px;
+	width:220px;
+	}
+.prognoza img {
+	float:left;
+	}
+.prognoza p {
+	float: right;
+    font-size: 24px;
+    font-family: Helvetica;
+    line-height: 29px;
+    margin-top: 20px;
+	}
+.first img , .second img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 25px;
+	}
+.pelud {
+	margin-top:40px;
+	}
+
+.pelud p {
+	font-size: 24px;
+	}
+.left-rezultati h1{
+	font-size:64px;
+	margin:10px 0 15px 0;
+	}
+.left-rezultati h2{
+	font-size:36px;
+	}
+.link-zagreb {
+	margin-top:20px;
+	}
+.visoka {
+	color:#FF0000;
+	}
+.umjerena {
+	color:#E2D536;
+	}
+.niska {
+	color:#00A659;
+	}
+.home-body {
+	background-image:url(../IMG/background@1x.png);
+    background-size: 100%;
+	background-repeat:no-repeat;
+	}
+.container-home {
+	width:100%;
+	height:100%;
+	position:relative;
+	}
+.header-home {
+	padding: 5px;
+	}
+.header-home img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+	}
+.main {
+	width: 65%;
+    margin: 0 auto;
+    margin-top: 170px;
+	}
+.odaberi {
+	display: block;
+    margin: 0 auto;
+	margin-top: 100px;
+    margin-bottom: 100px;
+	}
+.main h1 {
+	font-size: 64px;
+	color:#FFFFFF;
+	text-align:center;
+	font-weight: 200;
+    letter-spacing: 17.78px;
+	line-height:74px;
+	}
+.nav {
+	margin-top:100px;
+	}
+.nav h2 {
+	font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+	}
+.nav .date {
+	color: #fff;
+    font-size: 24px;
+    text-align: center;
+	}
+.nav .menu {
+	float: right;
+    margin-right: 40px;
+    margin-top: -50px;
+	}
+.home {
+	color:#FFFFFF;
+	font-size:36px;
+	text-align:center;
+	line-height:54px;
+	font-weight:300;
+}
+.home-button {
+    color: #FFFFFF;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    margin-top: 40px;
+    display: block;
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 16.67px;
+    text-align: center;
+	}
+.home-footer {
+	height: 220px;
+    margin-top: 80px;
+    width: 100%;
+    position: absolute !important;
+    bottom: 55px;
+	}
+.home-footer img {
+	display: block;
+    margin: 0 auto;
+	}
+.home-footer a {
+	color:#FFFFFF;
+	text-align: center;
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    MARGIN: 50px 0 50px 0;
+	}
+.home-footer p {
+	text-align: center;
+	color:#FFFFFF;
+	font-size:20px;
+	letter-spacing:1.5px;
+	}
+.header h1 {
+	font-size:48px;
+	text-align: center;
+	    margin: 0;
+    padding: 50px;
+}
+.alergene-green {
+	background-image:url(../IMG/alergene@1x.png);
+	height: 86px;
+	position: absolute;
+    z-index: 999;
+	width: 100%;
+}
+.alergene-green2 {
+	background-image:url(../IMG/alergene@1x.png);
+	height: 86px;
+	position: absolute;
+    z-index: 999;
+	width: 40%;
+	right:0;
+}
+.alergene-green h2, .alergene-green2 h2 {
+    font-size: 36px;
+    line-height: 86px;
+    margin-left: 50px;
+	color: #fff;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.section-alergene {
+	height: 370px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.alergene-left {
+    float: left;
+    width: 70%;
+}
+.alergene-left img {
+    margin-top: 0px;
+   height:370px;
+
+}
+.alergene-right {
+   position: absolute;
+   width:30%;
+    bottom: 10px;
+    right: 20px;
+}
+.alergene-link {
+    display: block;
+    width: 141px;
+    height: 141px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    right: 30px;
+    position: absolute;
+    bottom: 0;
+    bottom: 10px;
+}
+.alergene-right p {
+    bottom: 10px;
+	color: #828282;
+    display: inline;
+    text-align: left;
+	font-size: 30px;
+
+
+}
+.alergene-link a {
+    color: #828282;
+    display: block;
+    text-align: center;
+    bottom: 30px;
+    position: absolute;
+}
+.popis {
+    width: 70%;
+    margin: 0 auto;
+	margin-bottom: 30px;
+    margin-top: 80px;
+    height: 500px;
+    line-height: 65px;
+}
+.popis-right {
+	float:right;
+}
+.popis-left {
+	float:left;
+}
+.popis a {
+	font-size: 36px;
+
+}
+.popis li {
+	list-style:none;
+}
+.footer-ABC {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	margin-top: 50px;
+}
+.slider {
+	width:100%;
+
+}
+.slider img {
+	width:100%
+}
+.content {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.content h3 {
+	display:inline;
+	font-size:30px;
+}
+.content p {
+    line-height: 54px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.content-newsletter p {
+    line-height: 54px;
+    font-size: 30px;
+}
+.content-newsletter {
+    width: 80%;
+    margin: 0 auto;
+
+}
+.content-newsletter img{
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+}
+.email-input {
+    border-style: solid;
+    border-radius: 10px;
+    display: block;
+    width: 498px;
+    height: 99px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 30px;
+    color: #C9C9C9;
+    border-color: #5F5F5F;
+    text-align: center;
+}
+.prijavise {
+    font-size: 24px;
+    text-align: center;
+    width: 345px;
+    height: 80px;
+    border-radius: 10px;
+	margin-top: 50px;
+    color: #fff;
+    border: none;
+    background-color: #41750A;
+	    background-image: -webkit-linear-gradient(top, #88AE12, #41750A);
+}
+.prijava {
+	width:498px;
+	margin: 0 auto;
+}
+.footer-newsletter {
+	height: 60px;
+    width: 100%;
+    position: absolute !important;
+    bottom: 0;
+	}
+
+@media only screen and (min-width: 300px) and (max-width: 359px),
+only screen and (min-device-width: 300px) and (max-device-width: 359px)
+{
+
+
+
+	.main {
+	width: 80% !important;
+    margin: 0 auto;
+    margin-top: 50px;
+	}
+	.home-button {
+    color: #FFFFFF;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 16.67px;
+    text-align: center;
+    width: 60%;
+    display: block;
+	}
+	.home-footer {
+	height: 180px;
+	}
+	.home {
+    font-size: 30px !important;
+    line-height: 45px;
+	}
+	.home-footer a {
+    margin: 20px 0 20px 0;
+	}
+
+	.left-rezultati h2 {
+    font-size: 30px;
+}
+.alergene-left img {
+    margin-top: 50px;
+    height: 320px;
+
+}
+.content {
+    width: 85%;
+
+}
+.content h3 {
+	display:inline;
+	font-size:30px;
+}
+.content p {
+    line-height: 54px;
+    padding-top: 50px;
+    font-size: 28px;
+}
+.footer-ABC {
+position:relative !important;
+bottom:0;
+width:100%;
+}
+.popis a {
+	font-size: 30px;
+
+}
+}
+@media only screen and (min-width: 360px) and (max-width: 374px),
+only screen and (min-device-width: 360px) and (max-device-width: 374px)
+{
+	.main {
+	width: 70% !important;
+    margin: 0 auto;
+    margin-top: 50px;
+	}
+	.home-footer {
+	height: 180px;
+	}
+	.home {
+    font-size: 30px !important;
+    line-height: 45px;
+	}
+	.home-footer a {
+    margin: 20px 0 20px 0;
+	}
+
+	.left-rezultati h2 {
+    font-size: 30px;
+}
+.alergene-left img {
+    margin-top: 50px;
+    height: 330px;
+
+}
+
+footer {
+position:relative !important;
+    margin-top: 20px;
+}
+
+
+}
+@media all and (min-width: 500px) and (orientation:landscape) {
+   .home-footer {
+	position:relative !important;
+	}
+	.footer-ABC {
+position:relative !important;
+	}
+	footer {
+position:relative !important;
+	}
+	.footer-newsletter {
+
+    position: relative !important;
+}
+}
+
+@font-face {
+    font-family: 'apple-system';
+    src: url('../FONT/sfnsdisplay-black-webfont.woff') format('woff'),
+         url('../FONT/sfnsdisplay-black-webfont.ttf') format('truetype');
+    font-weight: 900;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'apple-system';
+    src: url('../FONT/sfnsdisplay-bold-webfont.woff') format('woff'),
+         url('../FONT/sfnsdisplay-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'apple-system';
+    src: url('../FONT/sfnsdisplay-heavy-webfont.woff') format('woff'),
+         url('../FONT/sfnsdisplay-heavy-webfont.ttf') format('truetype');
+    font-weight: 800;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'apple-system';
+    src: url('../FONT/sfnsdisplay-light-webfont.woff') format('woff'),
+         url('../FONT/sfnsdisplay-light-webfont.ttf') format('truetype');
+    font-weight: 300;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'apple-system';
+    src: url('../FONT/sfnsdisplay-medium-webfont.woff') format('woff'),
+         url('../FONT/sfnsdisplay-medium-webfont.ttf') format('truetype');
+    font-weight: 500;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'apple-system';
+    src: url('../FONT/sfnsdisplay-regular-webfont.woff') format('woff'),
+         url('../FONT/sfnsdisplay-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'apple-system';
+    src: url('../FONT/sfnsdisplay-semibold-webfont.woff') format('woff'),
+         url('../FONT/sfnsdisplay-semibold-webfont.ttf') format('truetype');
+    font-weight: 600;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'apple-system';
+    src: url('../FONT/sfnsdisplay-thin-webfont.woff') format('woff'),
+         url('../FONT/sfnsdisplay-thin-webfont.ttf') format('truetype');
+    font-weight: 200;
+
+
+}
+
+
+
+
+@font-face {
+    font-family: 'apple-system';
+    src: url('../FONT/sfnsdisplay-ultralight-webfont.woff') format('woff'),
+         url('../FONT/sfnsdisplay-ultralight-webfont.ttf') format('truetype');
+    font-weight: 100;
+
+}
+
+@font-face {
+    font-family: 'Helvetica-Neue';
+    src: url('../FONT/HelveticaNeue.ttf') format('truetype');
+    font-weight: normal;
+
+}
