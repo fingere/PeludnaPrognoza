@@ -124,14 +124,14 @@ a {
 	}
 .green {
 	background-image: url(../img/Rectangle%2019@1x.png);
-	width: 100px;
+	width: 128px;
 	height: 43px;
 	line-height: 43px;
 	position: relative;
 	float: right;
 	margin-top: 20px;
 	text-align: right;
-	padding-right: 28px;
+	padding-right: 25px;
 	color: #FFFFFF;
 	font-weight: bolder;
 }
@@ -140,6 +140,7 @@ a {
 	font-size:18px;
 	font-weight: bold;
     letter-spacing: 1px;
+	line-height: 43px;
 	}
 footer {
     height: 30px;
@@ -284,9 +285,10 @@ footer {
 	font-weight: 200;
     letter-spacing: 9px;
 	line-height:37px;
+	padding-bottom: 15px;
 	}
 .nav {
-	margin-top:50px;
+	margin-top:40px;
 	}
 .nav h2 {
 	font-size: 24px;
@@ -550,6 +552,26 @@ footer {
     margin-bottom: 50px;
 	letter-spacing: 1px;
 	-webkit-appearance: none;
+}
+.menu {
+	background-image:url(../img/background@1x.png);
+	background-image: url(../img/background@1x.png);
+	background-size: 375px 667px;
+	
+}
+.vremPrognoza {
+	width: 110px;
+	margin:0 auto;	
+	margin-top: 10px;
+    margin-bottom: 15px;
+}
+.vremPrognoza img {
+	width:45px ;	
+}
+.temperatura {
+    display: inline;
+    padding-left: 5px;
+    font-size: 22px;
 }
 @media only screen and (min-width: 300px) and (max-width: 359px) and (min-height: 481px),
 only screen and (min-device-width: 300px) and (max-device-width: 359px) and (min-device-height: 481px)
