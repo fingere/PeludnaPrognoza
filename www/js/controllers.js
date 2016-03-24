@@ -42,18 +42,44 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
+  $scope.playlists = [{
+    title: 'Reggae',
+    id: 1
+  }, {
+    title: 'Chill',
+    id: 2
+  }, {
+    title: 'Dubstep',
+    id: 3
+  }, {
+    title: 'Indie',
+    id: 4
+  }, {
+    title: 'Rap',
+    id: 5
+  }, {
+    title: 'Cowbell',
+    id: 6
+  }];
 })
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
+.controller('PlaylistCtrl', function($scope, $stateParams) {})
+
+.controller('ChooseCity', function($scope, $stateParams) {})
+
+.controller('ChosenCity', function($scope, $stateParams) {})
+
+
+
+.controller('NavCtrl', function($scope, $ionicSideMenuDelegate) {
+
+  $scope.showMenu = function() {
+    $ionicSideMenuDelegate.toggleRight();
+  };
+
+  $scope.showRightMenu = function() {
+    $ionicSideMenuDelegate.toggleLeft();
+  };
 })
 
-.controller('HomeController', function($scope, $stateParams) {
-});
+.controller('HomeController', function($scope, $stateParams) {});

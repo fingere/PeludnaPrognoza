@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic','ionic.service.core', 'starter.controllers'])
+angular.module('starter', ['ionic', 'ionic.service.core', 'starter.controllers'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -31,12 +31,6 @@ angular.module('starter', ['ionic','ionic.service.core', 'starter.controllers'])
     templateUrl: 'templates/menu.html',
     controller: 'AppCtrl'
   })
-
-.state('home', {
-  url: '/home',
-  templateUrl: 'templates/home.html',
-  controller: 'HomeController'
-})
 
   .state('app.search', {
     url: '/search',
@@ -73,7 +67,26 @@ angular.module('starter', ['ionic','ionic.service.core', 'starter.controllers'])
         controller: 'PlaylistCtrl'
       }
     }
+  })
+
+  .state('home', {
+    url: '/home',
+    templateUrl: 'templates/home.html',
+    controller: 'HomeController'
+  })
+
+  .state('chosenCity', {
+    url: '/chosenCity/:cityid',
+    templateUrl: 'templates/chosenCity.html',
+    controller: 'ChosenCity'
+  })
+
+  .state('chooseCity', {
+    url: '/chooseCity',
+    templateUrl: 'templates/chooseCity.html',
+    controller: 'ChooseCity'
   });
+
   // if none of the above states are matched, use this as the fallback
   //$urlRouterProvider.otherwise('/app/playlists');
   $urlRouterProvider.otherwise('/home');

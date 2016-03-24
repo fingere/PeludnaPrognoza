@@ -1,0 +1,37 @@
+<ion-view view-title="Choose City">
+<div class="container-home home-body">
+   <div class="header-home">
+
+   </div>
+   <div class="nav">
+     <div class="centerNavTitle">
+      <h2>Peludna prognoza</h2>
+      <p class="date">četvrtak, 4. veljače 2016.</p>
+    </div>
+    <button class="button button-icon button-clear ion-navicon myCustomParams" ng-click="showMenu()">
+    </button>
+    <!--  <img src="IMG/Hamburger meni Copy@1x.png" class="menu"/>-->
+   </div>
+   <div class="main">
+
+    <!--  <img src="IMG/Dropdown@1x.png" class="odaberi" /> -->
+
+    <select onChange="window.location.href=this.value">
+        <option selected>Odaberite Grad</option>
+        <option value="#/chosenCity/blue">Blue</option>
+        <option value="#/chosenCity/blue">Green</option>
+        <option value="#/chosenCity/blue">Red</option>
+    </select>
+      <p class="home">Alergijski semafor prati koncentraciju peludi u zraku te
+         Vam daje prognozu za slijedeća
+         tri dana.
+      </p>
+   </div>
+   <footer class="home-footer">
+      <img src="IMG/PLIVA-logo-bijeli@1x.png"/>
+      <a href="#">www.PLIVAzdravlje.hr</a>
+      <p>Sva prava pridržana ©2016. </p>
+   </footer>
+</div>
+
+</ion-view>

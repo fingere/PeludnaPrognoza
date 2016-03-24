@@ -1,3 +1,4 @@
+/* Empty. Add your own CSS if you like */
 @charset "UTF-8";
 /* CSS Document */
 
@@ -7,17 +8,18 @@ html, body {
 	font-family: -apple-system, "apple-system", "Helvetica-Neue", "Lucida Grande";
 	color:#474747;
 	margin:0;
+	letter-spacing:1px;
 	}
 p, h2 {
 	margin:0;
 	}
 h2 {
-	font-size: 15px;
+	font-size: 30px;
     font-weight: 500;
 	}
 a {
 	color:#474747;
-	font-size:12px;
+	font-size:24px;
 	text-decoration:none;
 	font-family:"Helvetica-Neue", "apple-system";
 	}
@@ -35,25 +37,25 @@ a {
 	position:relative;
 	}
 .section {
-	font-size: 15px;
-	line-height: 17px;
-	width: 90%;
-	height: 162px;
-	border-style: solid;
-	border-width: 1px;
-	border-radius: 5px;
-	margin-bottom: 10px !important;
-	margin: 0 auto;
-	position: relative;
-	}
-.section-detaljno {
-	font-size:15px;
-	line-height:18px;
+	font-size:30px;
+	line-height:35px;
 	width:90%;
-	height:437px;
+	height:322px;
 	border-style:solid;
 	border-width: 1px;
-	border-radius:5px;
+	border-radius:10px;
+	margin-bottom:15px !important;
+	margin:0 auto;
+	position:relative;
+	}
+.section-detaljno {
+	font-size:30px;
+	line-height:35px;
+	width:90%;
+	height:874px;
+	border-style:solid;
+	border-width: 1px;
+	border-radius:10px;
 	margin-bottom:15px !important;
 	margin:0 auto;
 	position:relative;
@@ -61,38 +63,37 @@ a {
 .left {
 	width:40%;
 	float:left;
-	margin-left:18px;
-	margin-top:15px;
+	margin-left:36px;
+	margin-top:29px;
 	}
 .left-detaljno {
 	width:40%;
 	float:left;
-	margin-left:18px;
-	margin-top:15px;
+	margin-left:36px;
+	margin-top:29px;
 	}
 .left-rezultati {
-	width: 50%;
-	float: left;
-	margin-left: 18px;
-	margin-top: 20px;
+	width:40%;
+	float:left;
+	margin-left:36px;
+	margin-top:29px;
 	}
 .link {
-	margin-top:25px
+	margin-top:50px
 	}
 .link p {
 	font-size: 24px;
 	}
 .right {
 	width:50%;
+	height:323px;
 	float:right;
     position: absolute;
     right: 0;
-	height:164px;
 	}
 .photo {
 	position: absolute;
 	right: 0;
-	bottom: 10px;
 	}
 .photo img {
 	margin-top: 10px;
@@ -103,58 +104,57 @@ a {
 	right: 0;
 	}
 .photo-detaljno img {
-	margin-top: 75px;
+	margin-top: 150px;
 	width:100%;
 	}
 .left img {
-	margin-top:12px;
-	width: 106px;
+	margin-top:23px;
+	width: 213px;
 	}
 .left-detaljno img {
-	margin-top:25px;
-	width: 80%;
+	margin-top:50px;
+	width: 213px;
 	}
 .left-detaljno .arrow {
 	margin-top:50px;
 	width: auto;
 	}
 .left-rezultati img {
-	margin-top: 12px;
-	width: 40px
+	margin-top:23px;
 	}
 .green {
-	background-image: url(../img/Rectangle%2019@1x.png);
-	width: 100px;
-	height: 43px;
-	line-height: 43px;
+	background-image:url(../img/Rectangle%2019@1x.png);
+	width: 200px;
+	height: 86px;
+	line-height:86px;
 	position: relative;
 	float: right;
-	margin-top: 20px;
-	text-align: right;
-	padding-right: 28px;
-	color: #FFFFFF;
-	font-weight: bolder;
+	margin-top:43px;
+	text-align:right;
+	padding-right: 56px;
+	color:#FFFFFF;
+	font-weight:bolder;
 }
 .green h2 {
 	color:#FFFFFF;
-	font-size:18px;
+	font-size:36px;
 	font-weight: bold;
     letter-spacing: 1px;
 	}
 footer {
-    height: 30px;
+    height: 60px;
     margin-top: 34px;
     width: 100%;
 
 	}
-
-.logo img {
-	width: 80px;
-	margin-left: 39px;
+.logo {
+	width:30%;
+	margin-left: 78px;
 	float:left;
 	}
 .link2 {
-	margin-right: 39px;
+	margin-right: 78px;
+    margin-top: 8px;
     float: right;
     font-weight: 400;
 	}
@@ -166,7 +166,7 @@ footer {
 	}
 .detaljno {
 	width:100%;
-	height:230px;
+	height:440px;
 	}
 .first {
 	width:50%;
@@ -189,51 +189,41 @@ footer {
 	}
 .prognoza {
 	margin:0 auto;
-	margin-top:15px;
-	width:110px;
+	margin-top:28px;
+	width:220px;
 	}
 .prognoza img {
 	float:left;
-	width: 45% !important;
-	margin-top:0 !important;
-	height:auto !important;
 	}
 .prognoza p {
 	float: right;
-    font-size: 12px;
+    font-size: 24px;
     font-family: Helvetica;
-    line-height: 15px;
+    line-height: 29px;
+    margin-top: 20px;
 	}
-
-.first img, .second img {
-	display: block;
+.first img , .second img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-	margin-top: 15px;
-	height: 46px;
-}
+	margin-top: 25px;
+	}
 .pelud {
-	margin-top:15px;
+	margin-top:40px;
 	}
 
 .pelud p {
-	font-size: 12px;
+	font-size: 24px;
 	}
 .left-rezultati h1{
-	font-size:32px;
-	margin:5px 0 7px 0;
-	}
-	.left-rezultati h1.umjerena{
-	font-size:32px;
-	margin:10px 0 7px 0;
+	font-size:64px;
+	margin:10px 0 15px 0;
 	}
 .left-rezultati h2{
-	font-size:18px;
+	font-size:36px;
 	}
 .link-zagreb {
-	margin-top: 10px;
-	position: absolute;
-	bottom: 5px
+	margin-top:20px;
 	}
 .visoka {
 	color:#FF0000;
@@ -248,142 +238,139 @@ footer {
 	background-image:url(../img/background@1x.png);
     background-size: 100%;
 	background-repeat:no-repeat;
-	overflow:hidden;
 	}
 .container-home {
 	width:100%;
 	height:100%;
+	position:relative;
 	}
-
+.header-home {
+	padding: 5px;
+	}
 .header-home img {
     margin: 0 auto;
     display: block;
     width: 100%;
 	}
 .main {
-	width: 76%;
-	margin: 0 auto;
-	margin-top: 90px;
-	}
-	.main2 {
-	width: 76%;
-	margin: 0 auto;
-
+	width: 70%;
+    margin: 0 auto;
+    margin-top: 170px;
 	}
 .odaberi {
 	display: block;
     margin: 0 auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	width: 250px;
+	margin-top: 100px;
+    margin-bottom: 100px;
 	}
 .main h1 {
-	font-size: 32px;
+	font-size: 64px;
 	color:#FFFFFF;
 	text-align:center;
 	font-weight: 200;
-    letter-spacing: 9px;
-	line-height:37px;
+    letter-spacing: 17.78px;
+	line-height:74px;
+	margin-bottom: 50px;
 	}
 .nav {
-	margin-top:50px;
+	margin-top:100px;
 	}
 .nav h2 {
-	font-size: 24px;
+	font-size: 48px;
     font-weight: bold;
     text-align: center;
     color: #fff;
 	}
 .nav .date {
 	color: #fff;
-    font-size: 12px;
+    font-size: 24px;
     text-align: center;
 	}
 .nav .menu {
 	float: right;
-	margin-right: 20px;
-	margin-top: -35px;
-	width: 20px;
+    margin-right: 40px;
+    margin-top: -50px;
 	}
 .home {
-	color: #FFFFFF;
-	font-size: 18px;
-	text-align: center;
-	line-height: 27px;
-	font-weight: 300;
+	color:#FFFFFF;
+	font-size:36px;
+	text-align:center;
+	line-height:54px;
+	font-weight:300;
 	margin-bottom: 40px;
 }
 .home-button {
-   color: #FFFFFF;
-	border-style: solid;
-	border-width: 1px;
-	border-radius: 10px;
-	border-color: #FFFFFF;
-	top: 40px;
-	display: block;
-	padding: 15px;
-	font-size: 15px;
-	letter-spacing: 8px;
-	text-align: center;
-	width: 76%;
-	margin: 0 auto;
+    color: #FFFFFF;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    margin-top: 40px;
+    display: block;
+    padding: 40px;
+    font-size: 30px;
+    letter-spacing: 16.67px;
+    text-align: center;
+	width:500px;
+	margin:0 auto;
 	}
 .home-footer {
-	height: 100px;
-	width: 100%;
-	position: absolute !important;
-	bottom: 30px;
+	height: 220px;
+    margin-top: 80px;
+    width: 100%;
+    position: absolute !important;
+    bottom: 55px;
 	}
 .home-footer img {
 	display: block;
     margin: 0 auto;
-	width: 85px;
 	}
 .home-footer a {
-	color: #FFFFFF;
+	color:#FFFFFF;
 	text-align: center;
-	display: block;
-	font-size: 14px;
-	font-weight: bold;
-	margin: 25px 0 25px 0;
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    MARGIN: 50px 0 50px 0;
 	}
 .home-footer p {
 	text-align: center;
-	color: #FFFFFF;
-	font-size: 10px;
+	color:#FFFFFF;
+	font-size:20px;
+	letter-spacing:1.5px;
 	}
 .header h1 {
-	font-size:24px;
+	font-size:48px;
 	text-align: center;
-	margin: 0;
-    padding: 40px;
+	    margin: 0;
+    padding: 50px;
 }
 .alergene-green {
 	background-image:url(../img/alergene@1x.png);
-	height: 43px;
+	height: 86px;
 	position: absolute;
     z-index: 999;
 	width: 100%;
 }
 .alergene-green2 {
 	background-image:url(../img/alergene@1x.png);
-	height: 43px;
+	height: 86px;
 	position: absolute;
     z-index: 999;
 	width: 40%;
 	right:0;
 }
 .alergene-green h2, .alergene-green2 h2 {
-   	font-size: 18px;
-	line-height: 43px;
-	margin-left: 25px;
+    font-size: 36px;
+    line-height: 86px;
+    margin-left: 50px;
 	color: #fff;
     font-weight: 900;
     letter-spacing: 1px;
 }
 .section-alergene {
-	height: 185px;
-	margin-bottom: 10px;
+	height: 370px;
+	margin-bottom: 20px;
 	position: relative;
 }
 .alergene-left {
@@ -391,8 +378,8 @@ footer {
     width: 70%;
 }
 .alergene-left img {
-	margin-top: 0px;
-	height: 185px;
+    margin-top: 0px;
+   height:370px;
 
 }
 .alergene-right {
@@ -402,40 +389,40 @@ footer {
     right: 20px;
 }
 .alergene-link {
-	display: block;
-	width: 70px;
-	height: 70px;
-	border-style: solid;
-	border-radius: 5px;
-	border-color: #828282;
-	border-width: 1px;
-	right: 15px;
-	position: absolute;
-	bottom: 5px;
+    display: block;
+    width: 141px;
+    height: 141px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    right: 30px;
+    position: absolute;
+    bottom: 0;
+    bottom: 10px;
 }
 .alergene-right p {
-    bottom: 5px;
+    bottom: 10px;
 	color: #828282;
     display: inline;
     text-align: left;
-	font-size: 15px;
+	font-size: 30px;
 
 
 }
 .alergene-link a {
-	color: #828282;
-	display: block;
-	text-align: center;
-	bottom: 15px;
-	position: absolute;
+    color: #828282;
+    display: block;
+    text-align: center;
+    bottom: 30px;
+    position: absolute;
 }
 .popis {
     width: 70%;
     margin: 0 auto;
-	margin-bottom: 15px;
-    margin-top: 40px;
-    line-height: 32px;
-	height: 220px;
+	margin-bottom: 30px;
+    margin-top: 80px;
+    height: 500px;
+    line-height: 65px;
 }
 .popis-right {
 	float:right;
@@ -444,7 +431,7 @@ footer {
 	float:left;
 }
 .popis a {
-	font-size: 18px;
+	font-size: 36px;
 
 }
 .popis li {
@@ -454,7 +441,7 @@ footer {
 	position:absolute;
 	bottom:0;
 	width:100%;
-	margin-top: 25px;
+	margin-top: 50px;
 }
 .slider {
 	width:100%;
@@ -466,20 +453,20 @@ footer {
 .content {
     width: 70%;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 .content h3 {
 	display:inline;
-	font-size:15px;
+	font-size:30px;
 }
 .content p {
-    line-height: 27px;
-    padding-top: 15px;
-    font-size: 15px;
+    line-height: 54px;
+    padding-top: 30px;
+    font-size: 30px;
 }
 .content-newsletter p {
-    line-height: 27px;
-    font-size: 15px;
+    line-height: 54px;
+    font-size: 30px;
 }
 .content-newsletter {
     width: 80%;
@@ -488,49 +475,47 @@ footer {
 }
 .content-newsletter img{
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 50px;
     display: block;
-	width:250px;
 }
 .email-input {
     border-style: solid;
-	border-width:1px;
-    border-radius: 5px;
+    border-radius: 10px;
     display: block;
-    width: 250px;
-    height: 50px;
+    width: 498px;
+    height: 99px;
     margin: 0 auto;
-    margin-top: 25px;
-    font-size: 15px;
+    margin-top: 50px;
+    font-size: 30px;
     color: #C9C9C9;
     border-color: #5F5F5F;
     text-align: center;
 }
 .prijavise {
-    font-size: 12px;
+    font-size: 24px;
     text-align: center;
-    width: 172px;
-    height: 40px;
-    border-radius: 5px;
-	margin-top: 25px;
+    width: 345px;
+    height: 80px;
+    border-radius: 10px;
+	margin-top: 50px;
     color: #fff;
     border: none;
     background-color: #41750A;
 	    background-image: -webkit-linear-gradient(top, #88AE12, #41750A);
 }
 .prijava {
-	width:250px;
+	width:498px;
 	margin: 0 auto;
 }
 .footer-newsletter {
-	height: 30px;
+	height: 60px;
     width: 100%;
     position: absolute !important;
     bottom: 0;
 	}
 
-@media only screen and (min-width: 300px) and (max-width: 359px) and (min-height: 481px),
-only screen and (min-device-width: 300px) and (max-device-width: 359px) and (min-device-height: 481px)
+@media only screen and (min-width: 300px) and (max-width: 359px),
+only screen and (min-device-width: 300px) and (max-device-width: 359px)
 {
 
 
@@ -540,7 +525,7 @@ only screen and (min-device-width: 300px) and (max-device-width: 359px) and (min
     margin: 0 auto;
     margin-top: 50px;
 	}
-	/*.home-button {
+	.home-button {
     color: #FFFFFF;
     border-style: solid;
     border-width: 3px;
@@ -549,32 +534,33 @@ only screen and (min-device-width: 300px) and (max-device-width: 359px) and (min
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 30px;
     font-size: 30px;
     letter-spacing: 16.67px;
     text-align: center;
-    width: 60%;
+    width: 80%;
     display: block;
-	}*/
+	}
 	.home-footer {
-	height: 80px;
-
+	height: 140px;
+    bottom: 20px;
 	}
 	.home {
-    font-size: 18px !important;
-	line-height: 22px;
-	margin-bottom: 20px
+    font-size: 35px !important;
+    line-height: 45px;
+	margin-bottom: 40px;
 	}
 	.home-footer a {
-    margin: 10px 0 10px 0;
+    margin: 20px 0 20px 0;
 	}
 
 	.left-rezultati h2 {
-    font-size: 15px;
+    font-size: 30px;
 }
 .alergene-left img {
-	margin-top: 15px;
-	height: 155px;
+    margin-top: 50px;
+    height: 320px;
+
 }
 .content {
     width: 85%;
@@ -582,75 +568,25 @@ only screen and (min-device-width: 300px) and (max-device-width: 359px) and (min
 }
 .content h3 {
 	display:inline;
-	font-size:15px;
+	font-size:30px;
 }
 .content p {
-    line-height: 27px;
-    padding-top: 25px;
-    font-size: 14px;
+    line-height: 54px;
+    padding-top: 50px;
+    font-size: 28px;
 }
 .footer-ABC {
 position:relative !important;
 bottom:0;
 width:100%;
 }
-.popis {
-margin-top: 20px;
-}
 .popis a {
-	font-size: 15px;
-	}
-.section-alergene {
-height: 160px;
-}
+	font-size: 30px;
 
 }
-@media only screen and (min-width: 300px) and (max-width: 359px) and (max-height: 480px),
-only screen and (min-device-width: 300px) and (max-device-width: 359px) and (max-device-height: 480px)
-{
-	.main {
-	margin-top: 30px;
-	width: 80%;
-	}
-	.home {
-	font-size: 16px !important;
-	line-height: 22px;
-	margin-bottom: 30px	;
-	}
-	.home-button {
-	padding: 10px;
-	width:65%;
-	}
-	.home-footer {
-	height: 80px;
-	margin-top:30px;
-	bottom: 10px;
-
-	}
-	.home-footer a {
-	margin: 10px 0 10px 0;
-	}
-	.alergene-left img {
-	margin-top: 15px;
-	height: 155px;
 }
-	.footer-ABC {
-	position:relative !important;
-	bottom:0;
-	width:100%;
-	}
-	.popis {
-	margin-top: 20px;
-	}
-	.popis a {
-	font-size: 15px;
-	}
-	.section-alergene {
-	height: 160px;
-	}
-}
-@media only screen and (min-width: 360px) and (max-width: 374px),
-only screen and (min-device-width: 360px) and (max-device-width: 374px)
+@media all and (min-width: 360px) and (max-width: 374px),
+all and (min-device-width: 360px) and (max-device-width: 374px)
 {
 	.main {
 	width: 70% !important;
@@ -661,7 +597,7 @@ only screen and (min-device-width: 360px) and (max-device-width: 374px)
 	height: 180px;
 	}
 	.home {
-    font-size: 30px !important;
+    font-size: 35px !important;
     line-height: 45px;
 	}
 	.home-footer a {
@@ -669,11 +605,11 @@ only screen and (min-device-width: 360px) and (max-device-width: 374px)
 	}
 
 	.left-rezultati h2 {
-    font-size: 15px;
+    font-size: 30px;
 }
 .alergene-left img {
-    margin-top: 25px;
-    height: 165px;
+    margin-top: 50px;
+    height: 330px;
 
 }
 
@@ -684,7 +620,7 @@ position:relative !important;
 
 
 }
-@media all and (min-width: 480px) and (orientation:landscape) {
+@media all and (min-width: 500px) and (orientation:landscape) {
    .home-footer {
 	position:relative !important;
 	}
@@ -698,6 +634,21 @@ position:relative !important;
 
     position: relative !important;
 }
+}
+@media all and (min-width: 300px) and (max-width: 320px) and (min-height:481px) and (max-height:568px),
+all and (min-device-width: 300px) and (max-device-width: 320px) and (min-device-height:481px) and (max-device-height:568px)
+{
+	.main {
+    margin-top: 80px;
+	}
+	.home {
+    font-size: 35px !important;
+    line-height: 45px;
+    margin-bottom: 80px;
+	}
+	.home-footer {
+    bottom: 55px;
+	}
 }
 
 @font-face {
@@ -802,28 +753,4 @@ position:relative !important;
     src: url('../FONT/HelveticaNeue.ttf') format('truetype');
     font-weight: normal;
 
-}
-
-.ion-navicon:before {
-	font-size: 33px;
-	color: #fff;
-}
-
-.blLtrs .ion-navicon:before {
-	color: #000;
-}
-
-.nav {
-	position:relative;
-}
-
-.myCustomParams {
-	position: absolute;
-	right: 18px;
-	top: 0;
-
-}
-
-.blLtrs * {
-	color:#000 !important;
 }
