@@ -317,7 +317,7 @@ footer {
    color: #FFFFFF;
 	border-style: solid;
 	border-width: 1px;
-	border-radius: 10px;
+	border-radius: 5px;
 	border-color: #FFFFFF;
 	top: 40px;
 	display: block;
@@ -528,7 +528,29 @@ footer {
     position: absolute !important;
     bottom: 0;
 	}
-
+.odaberi-grad {
+    background: none;
+    border-style: solid;
+    width: 250px;
+    height: 50px;
+    border-color: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: -apple-system, "apple-system", "Helvetica-Neue", "Lucida Grande";
+    padding-left: 15px;	
+	background-image:url(../img/strelica-dropdown@1x.png);
+    background-repeat: no-repeat;
+    background-size: 9.5px 6px;
+    background-position: right 20px center;
+	margin-top: 50px;
+    margin-bottom: 50px;
+	letter-spacing: 1px;
+	-webkit-appearance: none;
+}
 @media only screen and (min-width: 300px) and (max-width: 359px) and (min-height: 481px),
 only screen and (min-device-width: 300px) and (max-device-width: 359px) and (min-device-height: 481px)
 {
