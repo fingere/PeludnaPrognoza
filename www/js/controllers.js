@@ -69,6 +69,8 @@ angular.module('starter.controllers', [])
 
 .controller('ChosenCity', function($scope, $stateParams) {})
 
+.controller('citySelectedDetail', function($scope, $stateParams) {})
+
 
 
 .controller('NavCtrl', function($scope, $ionicSideMenuDelegate) {

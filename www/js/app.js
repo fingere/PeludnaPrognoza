@@ -85,6 +85,12 @@ angular.module('starter', ['ionic', 'ionic.service.core', 'starter.controllers']
     url: '/chooseCity',
     templateUrl: 'templates/chooseCity.html',
     controller: 'ChooseCity'
+  })
+
+  .state('citySelectedDetail', {
+    url: '/citySelectedDetail/:param1',
+    templateUrl: 'templates/citySelectedDetail.html',
+    controller: 'citySelectedDetail'
   });
 
   // if none of the above states are matched, use this as the fallback
