@@ -269,6 +269,8 @@ footer {
 	.main2 {
 	width: 76%;
 	margin: 0 auto;
+	position: relative;
+	/*top: 127px;*/
 
 	}
 .odaberi {
@@ -543,7 +545,7 @@ footer {
     text-transform: uppercase;
     color: #fff;
     font-family: -apple-system, "apple-system", "Helvetica-Neue", "Lucida Grande";
-    padding-left: 15px;	
+    padding-left: 15px;
 	background-image:url(../img/strelica-dropdown@1x.png);
     background-repeat: no-repeat;
     background-size: 9.5px 6px;
@@ -557,16 +559,16 @@ footer {
 	background-image:url(../img/background@1x.png);
 	background-image: url(../img/background@1x.png);
 	background-size: 375px 667px;
-	
+
 }
 .vremPrognoza {
 	width: 110px;
-	margin:0 auto;	
+	margin:0 auto;
 	margin-top: 10px;
     margin-bottom: 15px;
 }
 .vremPrognoza img {
-	width:45px ;	
+	width:45px ;
 }
 .temperatura {
     display: inline;
@@ -870,4 +872,21 @@ position:relative !important;
 
 .blLtrs * {
 	color:#000 !important;
+}
+
+.scroll {
+height:100%;
+}
+
+.mtWithCloud {
+	top:95px;
+}
+
+.link {
+    margin-top: 15px;
+}
+
+.link a {
+	display: block;
+padding: 5px;
 }
